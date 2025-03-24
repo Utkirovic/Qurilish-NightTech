@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qidiruv</title>
+    <link rel="stylesheet" href="Qidiruv.css">
+</head>
+
+<body>
+    <header>
+        <input type="text" id="searchInput" placeholder="Mahsulot qidiring..." onkeyup="showSuggestions()">
+        <button onclick="searchProducts()">🔍 Qidirish</button>
+        <ul id="suggestions"></ul>
+    </header>
+
+
+    <main id="searchResults">
+        <!-- Qidiruv natijalari shu yerda ko'rsatiladi -->
+    </main>
+
+    <div id="product-list" class="product-container"></div>
+    <nav class="bottom-nav">
+        <a href="/Glavni/Glavni.html">🏠 Menu</a>
+        <a href="/Chat/Chat.html">💬 Chat</a>
+        <a href="/Mahsulot +/Mahsulot.html">➕ Mahsulot joylash</a>
+        <a href="/Profil/Profil.html">⚙️ Profilni sozlash</a>
+    </nav>
+
+    <script src="Qidiruv.js"></script>
+</body>
+
+</html>
