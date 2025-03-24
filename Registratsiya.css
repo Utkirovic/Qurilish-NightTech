@@ -1,0 +1,49 @@
+/* Registratsiya.css */
+body {
+    background: url('https://img.lovepik.com/bg/20231225/Captivating-Black-Abstract-Wave-Animation-Background-Artwork_2674413_wh860.jpg!/fw/860') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+input, select {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+a {
+    color: #ff9800;
+}
