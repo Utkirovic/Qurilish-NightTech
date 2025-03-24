@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro‘yxatdan o‘tish</title>
+    <link rel="stylesheet" href="Registratsiya/Registratsiya.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ro‘yxatdan o‘tish</h2>
+        <form id="registerForm">
+            <input type="text" id="username" placeholder="Foydalanuvchi nomi" required>
+            <input type="text" id="realname" placeholder="Haqiqiy ism" required>
+            <input type="date" id="dob" required>
+            <select id="gender" required>
+                <option value="">Jinsni tanlang</option>
+                <option value="Erkak">Erkak</option>
+                <option value="Ayol">Ayol</option>
+            </select>
+            <input type="tel" id="phone" placeholder="Telefon raqami" required>
+            <input type="email" id="email" placeholder="Elektron pochta" required>
+            <input type="password" id="password" placeholder="Parol" required>
+            <input type="password" id="confirmPassword" placeholder="Parolni tasdiqlash" required>
+            <button type="submit">Ro‘yxatdan o‘tish</button>
+        </form>
+        <p>Allaqachon akkauntingiz bormi? <a href="/Kirish/Kirish.html" id="loginLink">Tizimga kirish</a></p>
+    </div>
+    <script src="Registratsiya/Registratsiya.js"></script>
+</body>
+</html>
